@@ -1,0 +1,17 @@
+categorical:
+- state
+- channel
+- segment
+- synthetic_group
+numeric:
+- income
+- dti
+- ltv
+- utilization
+- inquiries_12m
+- age
+- tenure_months
+- credit_lines
+sensitive:
+- synthetic_group
+target: default_12m
